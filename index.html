@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>CSS-Challenge</title>
+</head>
+<body>
+    <div class="layout">
+        <section class=".phantom-side-bar "></section>
+        <section class="side-bar">
+            <div class="logo">
+                <div class="color-bar"></div>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <div class="nav-marker marker-active"></div>
+                        <div class="nav-square square-active square"></div>
+                        <h3 class="nav-text white fw-500">Home</h3>
+                    </li>
+                    <li>
+                        <div class="nav-marker"></div>
+                        <div class="nav-square square"></div>
+                        <h3 class="nav-text fw-500">My Files</h3>
+                    </li>
+                    <li>
+                        <div class="nav-marker"></div>
+                        <div class="nav-square square"></div>
+                        <h3 class="nav-text fw-500">Recent Files</h3>
+                    </li>
+                    <li>
+                        <div class="nav-marker"></div>
+                        <div class="nav-square square"></div>
+                        <h3 class="nav-text fw-500">Shared Files</h3>
+                    </li>
+                    <li>
+                        <div class="nav-marker"></div>
+                        <div class="nav-square square"></div>
+                        <h3 class="nav-text fw-500">File Request</h3>
+                    </li>
+                    <li>
+                        <div class="nav-marker"></div>
+                        <div class="nav-square square"></div>
+                        <h3 class="nav-text fw-500">Trash</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="create-new">
+                <div class="create-new-options">
+                    <div class="options-item">
+                        <div class="options-item-square square"></div>
+                        <h4 class="options-item-text">Upload Files</h4>
+                    </div>
+                    <div class="options-item">
+                        <div class="options-item-square square"></div>
+                        <h4 class="options-item-text">Upload Folder</h4>
+                    </div>
+                    <div class="options-item">
+                        <div class="options-item-square square"></div>
+                        <h4 class="options-item-text">New Folder</h4>
+                    </div>
+                    <div class="options-item">
+                        <div class="options-item-square square"></div>
+                        <h4 class="options-item-text">More</h4>
+                    </div>
+                </div>
+                <div class="create-new-options-cosmetic"></div>
+
+                <div class="create-new-button">
+                    <div class="create-new-button-sign"></div>
+                    <h3 class="create-new-button-text white">Create New</h3>
+                </div>
+            </div>
+        </section>
+        <section class="principal">
+            <div class="search">
+                <div class="search-square">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.87476 16.75C13.224 16.75 16.7498 13.2242 16.7498 8.875C16.7498 4.52576 13.224 1 8.87476 1C4.52551 1 0.999756 4.52576 0.999756 8.875C0.999756 13.2242 4.52551 16.75 8.87476 16.75Z" stroke="#858A9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14.4429 14.4438L18.9992 19.0001" stroke="#858A9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <input type="text" class="search-text" placeholder="Search"></input>
+            </div>
+            <div class="recently-used">
+                <h2 class="recently-used-tittle">Recently Used</h2>
+                <div class="recently-used-squares">
+                    <div class="recently-used-square square"></div>
+                    <div class="recently-used-square square"></div>
+                </div>
+                <div class="file-wrapper">
+                    <div class="file-item">
+                        <div class="file-icon"></div>
+                        <div class="file-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle bg-dark"><h5 class="white">+3</h5></div>
+                        </div>
+                        <div class="file-dots">
+                            <svg width="1rem" height="1rem" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3.5C2.82843 3.5 3.5 2.82843 3.5 2C3.5 1.17157 2.82843 0.5 2 0.5C1.17157 0.5 0.5 1.17157 0.5 2C0.5 2.82843 1.17157 3.5 2 3.5Z" fill="#858A9D"/>
+                                <path d="M2 9.5C2.82843 9.5 3.5 8.82843 3.5 8C3.5 7.17157 2.82843 6.5 2 6.5C1.17157 6.5 0.5 7.17157 0.5 8C0.5 8.82843 1.17157 9.5 2 9.5Z" fill="#858A9D"/>
+                                <path d="M2 15.5C2.82843 15.5 3.5 14.8284 3.5 14C3.5 13.1716 2.82843 12.5 2 12.5C1.17157 12.5 0.5 13.1716 0.5 14C0.5 14.8284 1.17157 15.5 2 15.5Z" fill="#858A9D"/>
+                            </svg>  
+                        </div>
+                        <h3 class="file-tittle fw-500">App Project</h3>
+                        <div class="file-date">
+                            <h4 class="gray">Created:</h4>
+                            <h4>March 10, 2021</h4>
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <div class="file-icon"></div>
+                        <div class="file-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle bg-dark"><h5 class="white">+3</h5></div>
+                        </div>
+                        <div class="file-dots">
+                            <svg width="1rem" height="1rem" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3.5C2.82843 3.5 3.5 2.82843 3.5 2C3.5 1.17157 2.82843 0.5 2 0.5C1.17157 0.5 0.5 1.17157 0.5 2C0.5 2.82843 1.17157 3.5 2 3.5Z" fill="#858A9D"/>
+                                <path d="M2 9.5C2.82843 9.5 3.5 8.82843 3.5 8C3.5 7.17157 2.82843 6.5 2 6.5C1.17157 6.5 0.5 7.17157 0.5 8C0.5 8.82843 1.17157 9.5 2 9.5Z" fill="#858A9D"/>
+                                <path d="M2 15.5C2.82843 15.5 3.5 14.8284 3.5 14C3.5 13.1716 2.82843 12.5 2 12.5C1.17157 12.5 0.5 13.1716 0.5 14C0.5 14.8284 1.17157 15.5 2 15.5Z" fill="#858A9D"/>
+                            </svg>
+                        </div>
+                        <h3 class="file-tittle fw-500">Client Documents</h3>
+                        <div class="file-date">
+                            <h4 class="gray">Created:</h4>
+                            <h4>March 10, 2021</h4>
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <div class="file-icon"></div>
+                        <div class="file-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle bg-dark"><h5 class="white">+3</h5></div>
+                        </div>
+                        <div class="file-dots">
+                            <svg width="1rem" height="1rem" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3.5C2.82843 3.5 3.5 2.82843 3.5 2C3.5 1.17157 2.82843 0.5 2 0.5C1.17157 0.5 0.5 1.17157 0.5 2C0.5 2.82843 1.17157 3.5 2 3.5Z" fill="#858A9D"/>
+                                <path d="M2 9.5C2.82843 9.5 3.5 8.82843 3.5 8C3.5 7.17157 2.82843 6.5 2 6.5C1.17157 6.5 0.5 7.17157 0.5 8C0.5 8.82843 1.17157 9.5 2 9.5Z" fill="#858A9D"/>
+                                <path d="M2 15.5C2.82843 15.5 3.5 14.8284 3.5 14C3.5 13.1716 2.82843 12.5 2 12.5C1.17157 12.5 0.5 13.1716 0.5 14C0.5 14.8284 1.17157 15.5 2 15.5Z" fill="#858A9D"/>
+                            </svg>
+                        </div>
+                        <h3 class="file-tittle fw-500">Secret Project</h3>
+                        <div class="file-date">
+                            <h4 class="gray">Created:</h4>
+                            <h4>March 10, 2021</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-files">
+                <h2 class="recent-files-tittle">Recent Files</h2>
+                <h3 class="recent-files-view-all fw-500">View All</h3>
+                <div class="recent-files-table">
+                    <div class="rec-files-row rec-files-row-name">
+                        <h4 class="rec-files-name rec-files-name-tittle gray">Name</h4>
+                        <h4 class="rec-files-member gray">Members</h4>
+                        <h4 class="rec-files-last gray">Last Modified</h4>
+                        <div class="rec-files-dots"></div>
+                    </div>
+                    <div class="rec-files-row">
+                        <div class="rec-files-name">
+                            <div class="rec-files-name-icon" style="background-color:#FF9F00;"></div>
+                            <h3 class="rec-files-name-text">Travel Landing Page</h3>
+                        </div>
+                        <h3 class="rec-files-member gray">5 members</h3>
+                        <h3 class="rec-files-last gray">Mar 8, 2020</h3>
+                        <div class="rec-files-dots">
+                            <svg width="1rem" height="1rem" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3.5C2.82843 3.5 3.5 2.82843 3.5 2C3.5 1.17157 2.82843 0.5 2 0.5C1.17157 0.5 0.5 1.17157 0.5 2C0.5 2.82843 1.17157 3.5 2 3.5Z" fill="#858A9D"/>
+                                <path d="M2 9.5C2.82843 9.5 3.5 8.82843 3.5 8C3.5 7.17157 2.82843 6.5 2 6.5C1.17157 6.5 0.5 7.17157 0.5 8C0.5 8.82843 1.17157 9.5 2 9.5Z" fill="#858A9D"/>
+                                <path d="M2 15.5C2.82843 15.5 3.5 14.8284 3.5 14C3.5 13.1716 2.82843 12.5 2 12.5C1.17157 12.5 0.5 13.1716 0.5 14C0.5 14.8284 1.17157 15.5 2 15.5Z" fill="#858A9D"/>
+                            </svg>                                
+                        </div>
+                    </div>
+                    <div class="rec-files-row">
+                        <div class="rec-files-name">
+                            <div class="rec-files-name-icon" style="background-color:#4AC29D;"></div>
+                            <h3 class="rec-files-name-text">True Photos</h3>
+                        </div>
+                        <h3 class="rec-files-member gray">12 members</h3>
+                        <h3 class="rec-files-last gray">Mar 8, 2020</h3>
+                        <div class="rec-files-dots">
+                            <svg width="1rem" height="1rem" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3.5C2.82843 3.5 3.5 2.82843 3.5 2C3.5 1.17157 2.82843 0.5 2 0.5C1.17157 0.5 0.5 1.17157 0.5 2C0.5 2.82843 1.17157 3.5 2 3.5Z" fill="#858A9D"/>
+                                <path d="M2 9.5C2.82843 9.5 3.5 8.82843 3.5 8C3.5 7.17157 2.82843 6.5 2 6.5C1.17157 6.5 0.5 7.17157 0.5 8C0.5 8.82843 1.17157 9.5 2 9.5Z" fill="#858A9D"/>
+                                <path d="M2 15.5C2.82843 15.5 3.5 14.8284 3.5 14C3.5 13.1716 2.82843 12.5 2 12.5C1.17157 12.5 0.5 13.1716 0.5 14C0.5 14.8284 1.17157 15.5 2 15.5Z" fill="#858A9D"/>
+                            </svg>                                
+                        </div>
+                    </div>
+                    <div class="rec-files-row">
+                        <div class="rec-files-name">
+                            <div class="rec-files-name-icon" style="background-color:#FF6860;"></div>
+                            <h3 class="rec-files-name-text">Dashboard Structure</h3>
+                        </div>
+                        <h3 class="rec-files-member gray">10 members</h3>
+                        <h3 class="rec-files-last gray">Mar 9, 2020</h3>
+                        <div class="rec-files-dots">
+                            <svg width="1rem" height="1rem" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3.5C2.82843 3.5 3.5 2.82843 3.5 2C3.5 1.17157 2.82843 0.5 2 0.5C1.17157 0.5 0.5 1.17157 0.5 2C0.5 2.82843 1.17157 3.5 2 3.5Z" fill="#858A9D"/>
+                                <path d="M2 9.5C2.82843 9.5 3.5 8.82843 3.5 8C3.5 7.17157 2.82843 6.5 2 6.5C1.17157 6.5 0.5 7.17157 0.5 8C0.5 8.82843 1.17157 9.5 2 9.5Z" fill="#858A9D"/>
+                                <path d="M2 15.5C2.82843 15.5 3.5 14.8284 3.5 14C3.5 13.1716 2.82843 12.5 2 12.5C1.17157 12.5 0.5 13.1716 0.5 14C0.5 14.8284 1.17157 15.5 2 15.5Z" fill="#858A9D"/>
+                            </svg>                                
+                        </div>
+                    </div>
+                    <div class="rec-files-row">
+                        <div class="rec-files-name">
+                            <div class="rec-files-name-icon" style="background-color:#689FF8;"></div>
+                            <h3 class="rec-files-name-text">Character Ilustration</h3>
+                        </div>
+                        <h3 class="rec-files-member gray">3 members</h3>
+                        <h3 class="rec-files-last gray">Mar 10, 2020</h3>
+                        <div class="rec-files-dots">
+                            <svg width="1rem" height="1rem" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3.5C2.82843 3.5 3.5 2.82843 3.5 2C3.5 1.17157 2.82843 0.5 2 0.5C1.17157 0.5 0.5 1.17157 0.5 2C0.5 2.82843 1.17157 3.5 2 3.5Z" fill="#858A9D"/>
+                                <path d="M2 9.5C2.82843 9.5 3.5 8.82843 3.5 8C3.5 7.17157 2.82843 6.5 2 6.5C1.17157 6.5 0.5 7.17157 0.5 8C0.5 8.82843 1.17157 9.5 2 9.5Z" fill="#858A9D"/>
+                                <path d="M2 15.5C2.82843 15.5 3.5 14.8284 3.5 14C3.5 13.1716 2.82843 12.5 2 12.5C1.17157 12.5 0.5 13.1716 0.5 14C0.5 14.8284 1.17157 15.5 2 15.5Z" fill="#858A9D"/>
+                            </svg>                                
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="shared">
+                <h2 class="shared-tittle">Shared with me</h2>
+                <h3 class="shared-view-all fw-500">View All</h3>
+                <div class="file-wrapper">
+                    <div class="file-item">
+                        <div class="shared-item-icon square"></div>
+                        <div class="file-circles shared-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <h3 class="file-tittle">Landing Page</h3>
+                        <div class="file-date">
+                            <h4 class="gray">Created:</h4>
+                            <h4>March 10, 2021</h4>
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <div class="shared-item-icon square"></div>
+                        <div class="file-circles shared-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <h3 class="file-tittle">Ilustration Pack</h3>
+                        <div class="file-date">
+                            <h4 class="gray">Created:</h4>
+                            <h4>March 10, 2021</h4>
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <div class="shared-item-icon square"></div>
+                        <div class="file-circles shared-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <h3 class="file-tittle">CV Design</h3>
+                        <div class="file-date">
+                            <h4 class="gray">Created:</h4>
+                            <h4>March 10, 2021</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="summary">
+            <div class="account">
+                <div class="account-squares">
+                    <div class="account-square square"></div>
+                    <div class="account-square square"></div>
+                </div>
+                <div class="account-profile">
+                    <h3 class="account-name fw-500">Rick Sorkin</h3>
+                    <div class="account-photo"></div>
+                </div>
+            </div>
+            <div class="storage">
+                <h2>Storage</h2>
+                <div class="donnut-chart">
+
+                    <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="#fff" stroke="#F5F6FC" stroke-width="3"></circle>
+                      
+                        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#4AC29D" stroke-width="1.5" stroke-dasharray="14 86" stroke-dashoffset="20" stroke-linecap="round"></circle>
+                        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#FF9F00" stroke-width="1.5" stroke-dasharray="29 71" stroke-dashoffset="3" stroke-linecap="round"></circle>
+                        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#A6AABB" stroke-width="1.5" stroke-dasharray="9 91" stroke-dashoffset="71" stroke-linecap="round"></circle>
+                        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#689FF8" stroke-width="1.5" stroke-dasharray="36 64" stroke-dashoffset="59" stroke-linecap="round"></circle>
+                        <!-- unused 10% -->
+                        <g class="chart-text">
+                          <text x="50%" y="50%" class="chart-number">
+                            85%
+                          </text>
+                          <text x="50%" y="50%" class="chart-label">
+                            Used
+                          </text>
+                        </g>
+                      </svg>
+
+                </div>
+                <div class="donnut-info">
+                    <h4>420.2 GB of 500  GB</h4>
+                </div>
+                <div class="storage-info">
+                    <div class="storage-item">
+                        <div class="storage-icon" style="background-color: #FF9F00;"></div>
+                        <h4 class="storage-tittle">Documents</h4>
+                        <h5 class="storage-f-number gray">720 files</h5>
+                        <h5 class="storage-gb-number">200 GB</h5>
+                    </div>
+                    <div class="division"></div>
+                    <div class="storage-item">
+                        <div class="storage-icon" style="background-color: #689FF8;"></div>
+                        <h4 class="storage-tittle">Documents</h4>
+                        <h5 class="storage-f-number gray">720 files</h5>
+                        <h5 class="storage-gb-number">125 GB</h5>
+                    </div>
+                    <div class="division"></div>
+                    <div class="storage-item">
+                        <div class="storage-icon" style="background-color: #A6AABB;"></div>
+                        <h4 class="storage-tittle">Documents</h4>
+                        <h5 class="storage-f-number gray">720 files</h5>
+                        <h5 class="storage-gb-number">75 GB</h5>
+                    </div>
+                    <div class="division"></div>
+                    <div class="storage-item">
+                        <div class="storage-icon" style="background-color: #4AC29D;"></div>
+                        <h4 class="storage-tittle">Documents</h4>
+                        <h5 class="storage-f-number gray">720 files</h5>
+                        <h5 class="storage-gb-number">50 GB</h5>
+                    </div>
+                    <div class="division"></div>
+                    <div class="storage-item">
+                        <div class="storage-icon" style="background-color: #FF6860;"></div>
+                        <h4 class="storage-tittle">Documents</h4>
+                        <h5 class="storage-f-number gray">720 files</h4>
+                        <h5 class="storage-gb-number">50 GB</h5>
+                    </div>
+                </div>
+                <div class="buy-more">
+                    <div class="buy-icon"></div>
+                    <h3 class="buy-tittle fw-500">Buy more space now!</h3>
+                    <h4 class="gray">Upgrade to cloud premium</h4>
+                    <h3 class="buy-buttom">Upgrade Account!</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
